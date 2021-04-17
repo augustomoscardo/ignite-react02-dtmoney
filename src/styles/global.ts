@@ -24,11 +24,11 @@ export const GlobalStyle = createGlobalStyle`
 
   html {
     @media (max-wdth: 1080px) {
-      font-size: 93.75%--background;  //15px
+      font-size: 93.75%;  //15px
     }
 
     @media (max-wdth: 720px) {
-      font-size: 87.5%--background;   //14px
+      font-size: 87.5%;   //14px
     }
   }
 
@@ -74,7 +74,7 @@ export const GlobalStyle = createGlobalStyle`
     max-width: 576px;
     background: var(--background);
     padding: 3rem;
-    position:relative;
+    position: relative;
     border-radius: 0.25rem;
   }
 
